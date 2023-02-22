@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;0,1000;1,500&display=swap");
+/* font-family: 'Mulish', sans-serif; */
+
+body {
+  background-color: rgb(255, 217, 91);
+  font-family: "Mulish", sans-serif;
+}
+
+.header {
+  color: #004b96;
+  background-color: rgb(255, 217, 91);
+  font-size: 25px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: bold;
+}
+
+fieldset {
+  width: 700px;
+}
+
+legend {
+  color: #004b96;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 18px;
+}
+
+.titulos {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.login {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+footer {
+  background: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
+}
+
+pre {
+  margin: 30px;
+}
+
+.login-caja {
+  padding: 6px;
+  font-size: 20px;
+  text-align: left;
+  border-width: 5px;
+  border-radius: 18px;
+  border-style: inset;
+  border-color: #004b96;
+  box-shadow: 0px 0px 8px 0px rgba(42, 42, 42, 0.75);
+  font-weight: bold;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #004b96;
+  font-weight: bold;
+}
+
+input[type="checkbox"] + label:before {
+  content: "";
+  width: 40px;
+  height: 20px;
+  color: #004b96;
+  font-weight: bold;
+}
+
+input[type="radio"]:checked {
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+}
+
+img {
+  width: 30px;
+}
+
+.calendario {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.css-input:focus {
+  outline: none;
+}
+
+.boton {
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 17px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  width: 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    height 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  animation-name: observaciones;
+  animation-duration: 2s;
+}
+ 
+.boton:hover,
+.boton:focus {
+  background-color: #16437e;
+  color: #ffffff;
+  width: 220px;
+  height: 44px;
+}
+
+#boton-entrar {
+  padding: 6px;
+  font-size: 20px;
+  text-align: left;
+  border-width: 5px;
+  border-radius: 18px;
+  border-style: inset;
+  border-color: #004b96;
+  box-shadow: 0px 0px 8px 0px rgba(42, 42, 42, 0.75);
+  font-weight: bold;
+}
+
+#boton-entrar:hover {
+  background-color: #337cc0;
+  color: white;
+}
+
+#boton-restablecer {
+  padding: 6px;
+  font-size: 20px;
+  text-align: left;
+  border-width: 5px;
+  border-radius: 18px;
+  border-style: inset;
+  border-color: #500000;
+  box-shadow: 0px 0px 8px 0px rgba(42, 42, 42, 0.75);
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#boton-restablecer:hover {
+  background-color: #bc3737;
+  color: white;
+}
+
+.boton:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.boton:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+  width: 400px;
+  border-width: 6px;
+  border-radius: 20px;
+  border-color: #004b96;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+select {
+  font-size: 19px;
+  width: 200px;
+}

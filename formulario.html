@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formulario.css" />
+     <title>Formulario</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        Inmobiliarias Mediterráneo 
+      </h1>
+    </div>
+    <br>
+    <form>
+      <fieldset>
+        <legend>Iniciar sesión:</legend>
+        <br />
+        <label class="login" for="usuario">Nombre de usuario:</label>
+        <br />
+        <br />
+        <input placeholder="sif003" class="login-caja" type="text" id="usuario" required />
+        <br />
+        <br />
+        <br />
+        <label class="login" for="contraseña">Contraseña:</label>
+        <br />
+        <br />
+        <input class="login-caja" type="password" id="contraseña" required />
+        <br />
+        <br />
+        <br />
+        <label class="login" for="confirmar">Confirmar contraseña:</label>
+        <br />
+        <br />
+        <input class="login-caja" type="password" id="confirmar" required />
+        <br />
+        <br />
+      </fieldset>
+      <br />
+      <br />
+      <br />
+
+      <h2>Sexo:</h2>
+
+      <input type="radio" id="hombre" name="sexo" value="Hombre" required />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Blue_male_symbol.svg/800px-Blue_male_symbol.svg.png"
+        alt="sexo-masculino"
+      />
+      <label for="hombre">Hombre</label>
+
+      <br />
+
+      <input type="radio" id="mujer" name="sexo" value="Mujer" required />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Pink_female_symbol.svg/1200px-Pink_female_symbol.svg.png"
+        alt="sexo-femenino"
+      />
+      <label for="hombre">Mujer</label>
+
+      <br />
+      <br />
+      <br />
+
+      <label class="titulos" for="edad">Edad:</label>
+      <br />
+      <br />
+      <select name="edad-usuario" id="edad" size="1" required>
+        <option value="18-25">18-25 años</option>
+        <option value="25-35">25-35 años</option>
+        <option value="35-50">35-50 años</option>
+        <option value="+50">+50 años</option>
+      </select>
+
+      <br />
+      <br />
+      <br />
+      <h2>Interesado en:</h2>
+
+      <input
+        type="checkbox"
+        id="alquileres"
+        name="vivienda1"
+        value="Alquiler"
+        required
+      />
+      <label for="alquileres">Alquileres</label>
+
+      <br />
+
+      <input type="checkbox" id="comprar" name="vivienda2" value="Comprar" />
+      <label for="comprar">Viviendas para comprar</label>
+
+      <br />
+
+      <input type="checkbox" id="comprar" name="vivienda3" value="Compartir" />
+
+      <label for="compartir">Compartir viviendas</label>
+
+      <br />
+
+      <input type="checkbox" id="asesoria" name="vivienda4" value="Asesoria" />
+      <label for="asesoria">Asesoría inmobiliaria</label>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <label class="titulos" for="provincia">Provincia:</label>
+      <br />
+      <br />
+      <select name="provincias-elegir" id="provincias" size="3" multiple>
+        <option value="valencia">Valencia</option>
+        <option value="alicante">Alicante</option>
+        <option value="castellon">Castellón</option>
+        <option value="baleares">Baleares</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <label class="calendario" for="quantity">Presupuesto (€):</label>
+      <br>
+      <br>
+      <input class="calendario"
+        type="number"
+        id="quantity"
+        name="quantity"
+        min="0"
+        max="5000000"
+        step="10000"
+        value="500000"
+      />
+      <input class="calendario" type="submit" value="Confirmar" />
+      <br />
+      <br />
+      <br />
+      <label class="calendario" for="fecha">Fecha de entrada:</label>
+      <input class="calendario" type="date" id="fecha-entrada" name="fecha" />
+      <input class="calendario" type="submit" value="Confirmar" />
+      <br />
+      <br />
+      <br />
+
+      <input id="boton-entrar" type="submit" value="Iniciar sesión" />
+      <input
+        id="boton-restablecer"
+        type="reset"
+        name="restablecer"
+        id="boton-restablecer"
+      />
+    </form>
+    <br />
+    <br />
+    <h3>¿Tienes dudas? ¡Te repondemos en menos de 24h!</h3>
+    <br />
+    <textarea placeholder="hddhuhduhdu" name="dudas" id="cuadro-dudas" cols="30" rows="10">
+ Tengo una pregunta:
+    </textarea>
+    <br />
+    <br />
+    <button class="boton">Enviar comentario</button>
+    <br />
+    <br />
+    <footer>
+      <pre>
+        Información de contacto:     633950703
+        <a href="formula1.com">inmomediterraneo@gmail.com</a> 
+    </pre>
+    </footer>
+  </body>
+</html>
